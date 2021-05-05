@@ -1,6 +1,6 @@
 services:
   database:
-    build: .
+    build: ../Database/
     image: mysql/mysql-server:8.0.23
     container_name: database
     ports:
