@@ -1,6 +1,6 @@
 services:
   database:
-    build: ../Database/
+    build: /Database/ .
     image: mysql/mysql-server:8.0.23
     ports:
       - "3306:3306"
