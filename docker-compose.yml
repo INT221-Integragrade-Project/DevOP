@@ -1,0 +1,7 @@
+services:
+  database:
+    build: .
+    image: mysql/mysql-server:8.0.23
+    container_name: database
+    ports:
+      - "3306:3306"
